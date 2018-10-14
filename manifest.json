@@ -1,0 +1,20 @@
+{
+    "name": "Sklearn Documentation Search",
+    "version": "0.1",
+    "description": "Omnibox completion for scikit-learn documentation",
+    "permissions": [
+        "tabs",
+        "*://google.com/*",
+        "storage"
+    ],
+    "omnibox":{
+        "keyword": "skl"
+    },
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "manifest_version": 2
+  }
